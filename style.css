@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(to bottom right, #00ffcc 0%, #00ccff 100%);
+}
+
+.modal{
+    width: 60%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.family{
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+h1{
+    font-size: 70px;
+    background-color: rgb(127, 170, 197);
+    padding: 10px;
+    color: yellow;
+    text-shadow: 2px 2px lightyellow;
+}
+
+#qd{
+    margin-left: 100px !important;
+}
+
+#show_sketch{
+    font-size: 20px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+#sketch_to_be_drawn{
+    font-size: 35px;
+    color: darkblue;
+}
+
+#score{
+    font-size: 35px;
+    float: left;
+    margin-left: 50px;
+    color: rgb(195, 32, 32);
+}
+
+#timer{
+    font-size: 35px;
+    float: right;
+    margin-right: 50px;
+    color: rgb(195, 32, 32);
+}
+
+canvas{
+    border-width: 2px;
+    border-color: cornsilk;
+    border-style: solid;
+    border-radius:20px;
+    margin-top: 200px;
+    animation-name: shadow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow {
+    0% {box-shadow: 1px 1px 50px grey;}
+    25% {box-shadow: 1px 1px 50px rgb(111, 185, 165);}
+    50% {box-shadow: 1px 1px 50px rgb(94, 185, 215);}
+    75% {box-shadow: 1px 1px 50px rgb(111, 185, 165);}
+    100% {box-shadow: 1px 1px 50px grey;}
+}
